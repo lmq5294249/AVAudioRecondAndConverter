@@ -21,6 +21,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //清除上次缓存的文件
+    [self cleanCaches];
 }
 
 -(void)viewDidAppear:(BOOL)animated
